@@ -29,16 +29,24 @@ Google Colab 提供的是免费Tesla K80 GPU，可以玩Keras、Tensorflow、PyT
 3.1 进入 google driver：https://drive.google.com
 3.2 右键上传项目 所在的文件夹：
 <img width="352" height="307" alt="image" src="https://github.com/user-attachments/assets/7cc9c15a-5873-4a1a-a1fe-f026824141a6" />
+<img width="1642" height="534" alt="image" src="https://github.com/user-attachments/assets/1e75e54d-d4a0-482e-af06-c10ad83247fd" />
+<img width="1044" height="610" alt="image" src="https://github.com/user-attachments/assets/ac75738e-bac6-493e-972d-6cae7562f381" />
 
 
 ![在这里插入图片描述](https://img-blog .csdnimg.cn/20190703225625905.png
+<img width="622" height="312" alt="image" src="https://github.com/user-attachments/assets/57ede38e-e688-43ed-876e-d74b3c6d2921" />
+
 我这里简单地上传了一个名为 test  的文件夹，里面只有一个 main.py 的文件，代码也很简单，但是可以简单测试 Pytorch 的使用。
 
 3.3 进入 colab：点击左上角 “新建” --> “更多” --> “Colaboratory”
+<img width="696" height="540" alt="image" src="https://github.com/user-attachments/assets/fdced600-c0ec-40fa-9da2-a559bbd39dcc" />
+<img width="1919" height="374" alt="image" src="https://github.com/user-attachments/assets/3d7bf240-08a3-4a14-8add-4053eabd4cfd" />
 
 3.4 “Edit ” --> “Notebook settings” -->
+<img width="408" height="503" alt="image" src="https://github.com/user-attachments/assets/e56cd09d-137e-4a2c-a9aa-7ef207b89333" />
 
 这里我选择的 Python3 （根据自己代码依赖的环境） 和 GPU，如果要用 GPU 这一步必须调整好。每次调整这里的设置，后面的步骤都要再次进行。所以推荐这里设置好
+<img width="571" height="419" alt="image" src="https://github.com/user-attachments/assets/c27625bc-80f0-4df3-9b90-6b4d080761e6" />
 
 
 3.5 代码段里面输入
@@ -46,12 +54,15 @@ from google.colab import drive
 drive.mount(’/content/drive/’)
 
 然后点击左侧的运行图标，或者 Ctrl + Enter 运行。这时候会出现
+<img width="608" height="184" alt="image" src="https://github.com/user-attachments/assets/c58dd056-4b40-4fbc-9832-078257621479" />
 
 点击 URL 进入，授权 Google 用户，然后复制授权码粘贴到输入框，Enter。这个时候回显示挂载成功
+<img width="462" height="196" alt="image" src="https://github.com/user-attachments/assets/948278a2-9cea-4316-9331-91ad739a9978" />
 
 这里可以输入
 
 !ls
+<img width="327" height="149" alt="image" src="https://github.com/user-attachments/assets/373561b2-cd70-428b-aecc-920b792da204" />
 
 
 可以看到此目录下文件。
@@ -64,12 +75,14 @@ os.chdir(“drive/My Drive/test”)
 这里可以输入
 
 !ls
+<img width="114" height="102" alt="image" src="https://github.com/user-attachments/assets/16e90796-9a3c-4a23-80a2-b5e52fe296f6" />
 
 
 可以看到我们写的 main .py 文件。
 
 3.7 代码段里面输入
 !python main.py
+<img width="271" height="102" alt="image" src="https://github.com/user-attachments/assets/b4d67e58-ccf9-4289-8353-c0d085b91973" />
 
 
 成功搞定~
