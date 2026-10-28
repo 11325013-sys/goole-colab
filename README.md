@@ -82,8 +82,8 @@ os.chdir(“drive/My Drive/test”)
 
 3.7 代码段里面输入
 !python main.py
-<img width="271" height="102" alt="image" src="https://github.com/user-attachments/assets/b4d67e58-ccf9-4289-8353-c0d085b91973" />
 
+<img width="271" height="102" alt="image" src="https://github.com/user-attachments/assets/b4d67e58-ccf9-4289-8353-c0d085b91973" />
 
 成功搞定~
 
