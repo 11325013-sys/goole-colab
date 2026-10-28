@@ -28,6 +28,7 @@ Google Colab 提供的是免费Tesla K80 GPU，可以玩Keras、Tensorflow、PyT
 3.步骤
 3.1 进入 google driver：https://drive.google.com
 3.2 右键上传项目 所在的文件夹：
+<img width="352" height="307" alt="image" src="https://github.com/user-attachments/assets/7cc9c15a-5873-4a1a-a1fe-f026824141a6" />
 
 
 ![在这里插入图片描述](https://img-blog .csdnimg.cn/20190703225625905.png
