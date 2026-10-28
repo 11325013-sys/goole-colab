@@ -29,34 +29,29 @@ Google Colab 提供的是免费Tesla K80 GPU，可以玩Keras、Tensorflow、PyT
 3.1 进入 google driver：https://drive.google.com
 3.2 右键上传项目 所在的文件夹：
 
-https://i-blog.csdnimg.cn/blog_migrate/09e3e7b3f4f97f13f0683c6262b061cf.png
-https://i-blog.csdnimg.cn/blog_migrate/6d5b17a2434dfaf201c8937f640859ae.png
-https://i-blog.csdnimg.cn/blog_migrate/4d37927a4ededb77836a7e92e4dfbcb0.png
-https://i-blog.csdnimg.cn/blog_migrate/50e94fca8deab91da2924ed5be31a3e5.png
+
 ![在这里插入图片描述](https://img-blog .csdnimg.cn/20190703225625905.png
 我这里简单地上传了一个名为 test  的文件夹，里面只有一个 main.py 的文件，代码也很简单，但是可以简单测试 Pytorch 的使用。
 
 3.3 进入 colab：点击左上角 “新建” --> “更多” --> “Colaboratory”
-https://i-blog.csdnimg.cn/blog_migrate/f59910d800495b82f1ffaab500684cd2.png
-https://i-blog.csdnimg.cn/blog_migrate/222b76b007840e17626fccf7a9c14148.png
-https://i-blog.csdnimg.cn/blog_migrate/69a3755864c781d7925077f592e459ea.png
+
 3.4 “Edit ” --> “Notebook settings” -->
 
 这里我选择的 Python3 （根据自己代码依赖的环境） 和 GPU，如果要用 GPU 这一步必须调整好。每次调整这里的设置，后面的步骤都要再次进行。所以推荐这里设置好
-https://i-blog.csdnimg.cn/blog_migrate/3a80f36e25f695c5b0b609ed8c8d9d0f.png
+
 
 3.5 代码段里面输入
 from google.colab import drive
 drive.mount(’/content/drive/’)
 
 然后点击左侧的运行图标，或者 Ctrl + Enter 运行。这时候会出现
-https://i-blog.csdnimg.cn/blog_migrate/eb5ac56afd818107cf050f7016002093.png
+
 点击 URL 进入，授权 Google 用户，然后复制授权码粘贴到输入框，Enter。这个时候回显示挂载成功
-https://i-blog.csdnimg.cn/blog_migrate/01b60cadbe84173e74bdef52741cce6d.png
+
 这里可以输入
 
 !ls
-https://i-blog.csdnimg.cn/blog_migrate/1aedb667ab2b749e33cbb4acac924496.png
+
 
 可以看到此目录下文件。
 
